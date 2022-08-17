@@ -11,3 +11,10 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+require("jquery")
+import "bootstrap"
+require("packs/main")
+require("packs/easing.min")
+require("packs/owl.carousel.min")
+
